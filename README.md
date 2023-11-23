@@ -50,6 +50,11 @@ docker pull soulteary/flare:0.4.1
 docker run --rm -it -p 5005:5005 -v `pwd`/app:/app soulteary/flare:0.4.1
 ```
 
+如果你希望软件能够以后台方式运行，或者希望软件能够换个端口运行，比如监听到 8080，可以将运行参数修改为：
+
+docker run --rm -d -p 8080:5005 -v `pwd`/app:/app soulteary/flare
+
+
 如果你习惯使用 docker-compose，只需要执行：
 
 ```bash

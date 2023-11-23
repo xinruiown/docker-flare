@@ -117,6 +117,8 @@ docker-compose up -d
 
 ## 关于内置图标
 
+启动 flare 之后，使用浏览器访问 /icons/ 可以打开图标列表页面。
+
 程序内置了目前 [materialdesignicons.com](https://materialdesignicons.com/) 中所有的 Material Design Icons，你可以让你的每一个书签都拥有风格统一、高质量的矢量图标。
 
 ![](./screenshots/icon-cheat-sheets.png)
